@@ -3,10 +3,13 @@
 A New Dataset of Handwritten Chinese Character Type for ClassificationCancel changes
 
 ◉dataset
+
  CCT-4
+ 
  Download:https://drive.google.com/drive/folders/1--HlwXtG4ZfLP_Ey_yUrTJDiBeDhwVJz?usp=sharing
 
 ◉data directory
+
  ./data
    ┣Train
    ┣Train
