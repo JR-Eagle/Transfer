@@ -23,8 +23,6 @@ Traditional Chinese characters and Simplified Chinese characters are one type of
 
 ### List of Kan Chinese character
 <img width= 400 src='./tmp/2-Character list.png'>
-<br>
-<br>
 You can  click the following link to check the details of the characters
 
 [Chinese_Character_List_Detail.pdf](Chinese_Character_List_Detail.pdf)
@@ -72,9 +70,6 @@ I performed experiments with Finetuning by the training details shown in the tab
 
 <img width=350  src='./tmp/8-Training details.png'>
 
-<br>
-<br>
-
 ### **Implementation**
 First, download the dataset from the following link.
 
@@ -112,6 +107,7 @@ In the 6 models, the best test accuracy is only 72.5%. It is not good. I think t
 To begin with, the training data is insufficient. The Chinese character is complicated and difficult, especially the ancient character like Bronze script and Seal script with many strokes. It is not easy for model to train and get all the feature maps with only 400 images.
 
 Second,  There are some similar characters, as shown in the following Figure . It is important to improve the models’ discriminant ability for detailed information.
+
 <img width=350 src='./tmp/10-Analysis example.png'>
 
 Last of all, Our 5 writers are not professional calligrapher. Especially for Bronze script and Seal script characters, we have no experience of writing them. So, there are some difference between the handwriting and the template
