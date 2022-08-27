@@ -1,4 +1,4 @@
-# A New Dataset of Handwritten Chinese Character Type for Classification
+## A New Dataset of Handwritten Chinese Character Type for Classification
 
 ### Abstarct
 
