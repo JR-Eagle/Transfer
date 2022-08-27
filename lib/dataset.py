@@ -16,13 +16,7 @@ class EikllxDataset(torch.utils.data.Dataset):
         ])
         self.dataframe = pd.read_csv(os.path.join(dataset_dir,csv_dir))
         self.labeldict = {'Kai': 0, 'Kan': 1, 'Kin': 2, 'Ten': 3}
-        # classes = self.dataframe['label']
-        # classes = classes.drop_duplicates()
-        # for i in np.arange(len(classes)):
-        #     label = classes.iloc[i]
-        #     self.labeldict[label] = i
-            
-            # transforms.Normalize(0.4914, 0.2023),
+
     def __len__(self):
         return len(self.dataframe)
 
