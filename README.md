@@ -4,7 +4,7 @@
 
 The dataset is 400 isolated handwritten Chinese characters, written by 5 people. I named the dataset as CCT-4. Chinese characters have undergone many changes from ancient to modern. I selected 4 types of Chinese character to create the dataset.   
 The new dataset consists of four types, Kin(bronze script), Ten(seal script), Kai(traditional Chinese), Kan(simplified Chinese). There are 20 different Chinese characters in each type, and the total number of 4 types is 80 Chinese characters. Everyone wrote 80 characters of four types.  
-I performed classification experiments on the dataset based on a convolutional neural network, in an attempt to provide a baseline for the performance of machine learning algorithms on the dataset.
+I performed classification experiments on the dataset based on a convolutional neural network, as an attempt to provide a baseline for the performance of machine learning algorithms on the dataset.
 
 
 # ◉Dataset introduction
