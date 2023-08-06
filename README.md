@@ -14,8 +14,6 @@ The table shows Chinese, Chinese pronunciation, English and Japanese pronunciati
 The bronze script and the Seal script are ancient styles of writing Chinese characters.  
 The bronze script is engraved in ritual bronzes such as big metal bell.  
 In general, the Seal script originated from the Chinese bronze script.  
-In contrast, both Traditional and Simplified Chinese characters serve as contemporary standard character sets in modern written Chinese literature.
-
 Traditional Chinese characters and Simplified Chinese characters are one type of standard Chinese character sets of the contemporary written Chinese.
 <img src='./tmp/1-Category.png'>
 
