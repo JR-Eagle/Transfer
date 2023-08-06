@@ -2,7 +2,9 @@
 
 ### Abstarct
 
-As a protect practice of Image and Video Recognition Course in my master's program, I created a new dataset which is 400 isolated handwritten Chinese characters, written by 5 people. I named the dataset as CCT-4. Chinese characters have undergone many changes from ancient to modern. I selected 4 types of Chinese character to create the dataset. The new dataset consists of four types, Kin(bronze script), Ten(seal script), Kai(traditional Chinese), Kan(simplified Chinese). There are 20 different Chinese characters in each type, and the total number of 4 types is 80 Chinese characters. Everyone wrote 80 characters of four types. I performed classification experiments on the dataset based on a convolutional neural network and achieved a good result considering the complexity of the ancient Chinese character. I conducted the experiment as an attempt to provide a baseline for the performance of machine learning algorithms on the dataset.
+In the Image and Video Recognition course during my master's studies, I undertook a project that focused on the creation and analysis of a novel dataset named CCT-4. This dataset comprises 400 distinct handwritten instances of Chinese characters, provided by five individual contributors. Historically, Chinese scripts have evolved considerably from their ancient forms to contemporary versions. For the construction of this dataset, I meticulously selected four distinctive scripts: Kin (bronze script), Ten (seal script), Kai (traditional Chinese), and Kan (simplified Chinese). Each script contains 20 unique characters, summing up to 80 characters across all four categories. Each participant contributed by writing all 80 characters spanning the four script types.
+
+Subsequently, I employed a convolutional neural network to perform character classification on this dataset. Given the intricate nature of ancient Chinese scripts, the results were commendably accurate. This experiment aimed to establish a foundational benchmark for the efficacy of machine learning algorithms when applied to this dataset.
 
 
 # ◉Dataset introduction
@@ -12,8 +14,9 @@ The table shows Chinese, Chinese pronunciation, English and Japanese pronunciati
 The bronze script and the Seal script are ancient styles of writing Chinese characters.  
 The bronze script is engraved in ritual bronzes such as big metal bell.  
 In general, the Seal script originated from the Chinese bronze script.  
-Traditional Chinese characters and Simplified Chinese characters are one type of standard Chinese character sets of the contemporary written Chinese.
+In contrast, both Traditional and Simplified Chinese characters serve as contemporary standard character sets in modern written Chinese literature.
 
+Traditional Chinese characters and Simplified Chinese characters are one type of standard Chinese character sets of the contemporary written Chinese.
 <img src='./tmp/1-Category.png'>
 
 ### Image details
