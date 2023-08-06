@@ -94,19 +94,18 @@ Finally, you can implement the main.py like the below.
 
 
 ### Experiment results
-Experiment results demonstrated the good  performance of the finetuning in comparison with scratch.
-ResNet18_Ft show a better performance than other models and achieved an improvement compared with ResNet18.  
-  Although the train accuracy rate of 6 models is more than 94%, the test accuracy of easyCNN is very low, only 22.5%. I think it is possible that easyCNN has overfitting during training. GoogLeNet, AlexNet, RegNet_x_8gf and ResNet18 obtained a not bad test accuracy.
+The empirical results underscored the superior efficacy of finetuning as opposed to training from scratch. Specifically, the ResNet18_Ft model outperformed its counterparts, manifesting a marked enhancement relative to the standard ResNet18.
+
+While the training accuracy for all six models exceeded 94%, it is noteworthy that the test accuracy for easyCNN was a mere 22.5%. This discrepancy suggests a potential overfitting of the easyCNN model during its training phase. Meanwhile, GoogLeNet, AlexNet, RegNet_x_8gf, and ResNet18 yielded satisfactory test accuracy metrics.
 <img src='./tmp/9-Results.png'>
 
 # ◉Analysis
-Finally, I want to briefly talk about the analysis of the experiment results.
-In the 6 models, the best test accuracy is only 72.5%. It is not good. I think there are the following reasons.  
+In our experimental outcomes, the highest test accuracy achieved across the six models was 72.5%. This result is less than optimal, and upon reflection, several underlying causes can be identified:
 
-To begin with, the training data is insufficient. The Chinese character is complicated and difficult, especially the ancient character like Bronze script and Seal script with many strokes. It is not easy for model to train and get all the feature maps with only 400 images.
+Firstly, the volume of training data available was limited. Chinese characters, inherently intricate in design, especially ancient scripts like the Bronze and Seal scripts, have numerous strokes, making their recognition a challenging task. Acquiring meaningful feature maps from a mere 400 images for such complex characters is a daunting undertaking for any model.
 
-Second,  There are some similar characters, as shown in the following Figure . It is important to improve the models’ discriminant ability for detailed information.
+Additionally, the dataset contains characters that bear resemblance to one another, as illustrated in the subsequent figure. Enhancing the model's ability to discern nuanced differences between these similar characters is pivotal.
 
 <img width=350 src='./tmp/10-Analysis example.png'>
 
-Last of all, Our 5 writers are not professional calligrapher. Especially for Bronze script and Seal script characters, we have no experience of writing them. So, there are some difference between the handwriting and the template
+Lastly, it should be noted that our cohort of five writers were not expert calligraphers. This lack of expertise was particularly evident when inscribing the Bronze and Seal scripts, with which they had minimal familiarity. Consequently, there were observable deviations between their handwritten samples and the established templates.
